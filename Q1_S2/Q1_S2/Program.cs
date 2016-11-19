@@ -55,9 +55,9 @@ namespace Q1_S2
                         break;
                 }
 
-                Console.Write("Devam Etmek istiyormusunuz ?(E/H)");
+                Console.WriteLine("Devam Etmek istiyormusunuz ?(E/H)");
                 string soru = Console.ReadLine();
-                if (soru == "H")
+                if (soru == "h" && soru == "H")
                 {
                     secim = false;
                 }
